@@ -1,0 +1,272 @@
+body {
+  background-color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  color: #333333;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.no-border {
+  border: none;
+}
+
+
+.container-fluid {
+
+  background-color: #F3F5F5;
+}
+
+
+
+  .head {
+  font-family: 'Karma', serif;
+  
+}
+
+.head1 {
+  font-family: 'Noto Sans', sans-serif;
+  margin-right: 9px;
+  font-size: 1.3rem;
+}
+
+ .head {
+  font-size: 3.6rem;
+  color: #217FF9;
+  margin-top: 10px;
+  text-shadow: 3px 3px 6px #B5B7B7;
+}
+
+.mail {
+  margin-top: 38px;
+  font-family: serif;
+  color: #6F7070;
+}
+
+.mail .icons {
+
+  margin-left: 25px;
+  font-size: 13px;
+}
+
+.mail a{
+
+  text-decoration: none;
+  color: #6F7070;
+  font-family: sans-serif;
+}
+
+.mail a:hover {
+
+  color: orange;
+}
+
+
+
+/* FOR MOBILE SCREEN */
+
+@media only screen and (max-width: 700px) {
+
+  .head {
+
+      font-size: 2.5rem ;
+  }
+
+  .head1 {
+
+    font-size: 1rem;
+  }
+
+  .mail {
+
+    font-size: 15px;
+    color: 
+  }
+}
+
+@media only screen and (max-width: 450px) {
+
+  .head {
+
+    font-size: 2.3rem;
+    margin-top: 0px;
+  }
+
+  .head1 {
+
+    font-size: 1rem;
+  }
+
+  .mail {
+    font-size: 13px;
+        margin-top: 0px;
+  }
+
+  .container-fluid img {
+
+    width: 60px;
+    height: 60px;
+  }
+
+  .mail .icons {
+
+    font-size: 14px;
+    margin-left: 15px;
+  }
+
+  @media only screen and (max-width: 345px) {
+
+    .head {
+
+      font-size: 2rem;
+    }
+
+    .head1 {
+
+      font-size: .7rem
+    }
+
+    .mail .icons {
+
+    font-size: 12px;
+    margin-left: 13px;
+  }
+  }
+}
+
+
+
+/*///////////// FOR NAVBAR ////////////// */
+
+.navbar {
+
+  background-color: #14A2F1;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+}
+
+
+
+.navbar ul{
+     text-align: center;
+}
+
+
+.navbar ul li {
+
+  margin-right: 30px;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+ .navbar .navbar-nav .nav-item .nav-link:hover{
+         
+         background-color: #065D82;
+         border-radius: 5px;
+}
+
+.navbar .navbar-nav .nav-item .dropdown-menu {
+
+  background-color: #F3F5F5;
+  border: 1px solid #B5B6B6;
+  border-radius: 3px;
+
+}
+
+
+
+.navbar .navbar-nav .nav-item .dropdown-menu a:hover {
+       
+    color: #0FBBF9;
+
+}
+
+/*---NAVBAR ENDS----*/
+/*-------------------*/
+
+.images_memb {
+
+  background-color: #fff;
+}
+
+
+.names{
+        background-color: white;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .names p{
+      font-family: 'Kalam', cursive;
+      color: grey;
+      font-size: large;
+    }
+    .names h1{
+      font-family: 'Merriweather', serif;
+      text-shadow: 1px 1px grey;
+    }
+    .names .subt1{
+      font-family: 'Dancing Script', cursive;
+      font-size: 50px;
+    }
+    .imgabout{
+      height: 300px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 5px 5px 5px grey;
+      width:340px;
+     
+    }
+    .imgabout:hover{
+      transform: scale(1.1);
+      transition-duration: 1s ease;
+      cursor: pointer;
+      transition-timing-function: linear;
+    }
+
+
+
+
+
+.footer {
+
+  background-color: #2C2D2D;
+}
+
+.footer p {
+
+  font-size: 13px;
+  font-family: sans-serif;
+  color: #A0A1A2;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.footer .icon {
+
+  color: #F9A005;
+}
+
+.footer .icon:hover{
+
+  color: #ccc;
+}
+
+.footer ul {
+  list-style: none;
+  margin-top: 60px;
+  padding-bottom: 40px;
+}
+
+.footer ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+.footer .icon_head {
+
+  font-size: 15px;
+  font-family: 'Jaldi', sans-serif;
+  color: #F9A005; 
+}

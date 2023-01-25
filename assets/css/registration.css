@@ -1,0 +1,165 @@
+
+            body{
+                background:url('https://www.charpstar.se/wp-content/uploads/2018/10/light-blue-polygonal-background-seamles-loop-3d-render-4k-uhd-3840x2160_bhidnioy__F0000.png');
+            }  
+
+            h3{
+                margin-top: 30px;   
+                font-weight: 525;
+            }
+            h1{
+                font-size: 55px;
+                font-family: 'Jaldi', sans-serif;
+                font-weight: 600;
+                margin-top: 30px;
+            }
+            .form-group{
+                width: 85%;
+                font-size: 18px;
+                padding-bottom: 20px ;
+            }
+
+            @media only screen and (max-width:992px){ /* phone */
+                h1{
+                    display: none;
+                }
+                #submit{
+                    width:45%;
+                    background-color: #267FAB;
+                    color: white;
+                    border-radius: 5px;
+                }
+                h3{
+                    font-size:30px;
+                    margin-top:10px;
+                }
+            }
+        
+            @media only screen and (min-width:992px){ /* laptop */
+                 
+                .form-group{
+                width: 60%;
+                margin-bottom: 25px;
+            }
+            
+            fieldset{
+                border: 2px double black;
+                margin-top: 5%;
+                margin-bottom: 5%;
+                width:70%;
+                background: rgba(255,255,255,0.7 );
+                padding: 15px 0 35px 15px;
+            }
+
+            #submit{
+                width:45%;
+                background-color: #267FAB;
+                color: white;
+                border-radius: 5px;
+            }
+        }
+
+            
+
+ /* FOOTER STARTS HERE*/
+/*---------------------*/
+
+.quick_link {
+
+    background-color: #403F3F;
+}
+
+.quick_link p {
+
+    font-family: 'Jaldi', sans-serif;
+    font-size: 16px;
+    color: #B3B2B1;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+.links {
+    font-family: 'Jaldi', sans-serif;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-top: 10px;
+} 
+
+.quick_link .links ul {
+    list-style: none;
+}
+
+.quick_link .links ul li {
+
+    display: inline;
+    margin-left: 35px;
+}
+
+.quick_link .links ul li a {
+
+    text-decoration: none;
+     color: #0C96EC;
+}
+
+.quick_link .links ul li a:hover {
+
+    color: #CED0D1;
+}
+ 
+
+/* FOR MOBILE */
+/*///////////*/
+
+@media only screen and (max-width: 450px) {
+
+.quick_link .links ul li {
+
+    display: inline;
+    margin-left: 20px;
+}
+
+}
+
+
+.footer {
+
+    background-color: #2C2D2D;
+    margin-top: 40px;
+}
+
+.footer p {
+
+    font-size: 13px;
+    font-family: sans-serif;
+    color: #A0A1A2;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer .icon {
+
+    color: #F9A005;
+}
+
+.footer .icon:hover{
+
+    color: #ccc;
+}
+
+.footer ul {
+    list-style: none;
+    margin-top: 60px;
+    padding-bottom: 20px;
+}
+
+.footer ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.footer .icon_head {
+
+    font-size: 15px;
+    font-family: 'Jaldi', sans-serif;
+    color: #F9A005; 
+}
