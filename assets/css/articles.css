@@ -65,7 +65,6 @@ body {
 }
 
 
-
 /* FOR MOBILE SCREEN */
 
 @media only screen and (max-width: 700px) {
@@ -199,10 +198,12 @@ body {
 
 .articles h2 {
 
-	font-family: 'Jaldi', sans-serif;
-	font-weight: 600;
-	font-size: 35px;
-	padding-top: 25px;
+	text-align: center;
+    font-family: 'Jaldi', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    padding-top: 25px;
+    color: #dc3545;
 }
 
 .articles h3, p, ul li{
@@ -215,6 +216,10 @@ body {
 	color: #773DCA;
 }
 
+.articles .nav{
+	justify-content: space-around;
+	align-items: center;
+}
 
 @media only screen and (max-width: 345px){
 
@@ -231,7 +236,7 @@ body {
 	}
 }
 
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 550px){
 
 	.articles h2{
 
@@ -243,6 +248,11 @@ body {
        width: 35px;
        height: 35px;
 
+	}
+
+	.articles .nav{
+		flex-direction: column;
+		gap:0.5rem;
 	}
 }
 
