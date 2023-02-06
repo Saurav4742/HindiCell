@@ -1,17 +1,17 @@
 body {
-  background-color: #ffffff;
-  font-family: "Poppins", sans-serif;
-  color: #333333;
-  font-size: 16px;
-  overflow-x: hidden;
+	background-color: #ffffff;
+	font-family: "Poppins", sans-serif;
+	color: #333333;
+	font-size: 16px;
+	overflow-x: hidden;
 }
 
 .no-padding {
-  padding: 0;
+	padding: 0;
 }
 
 .no-border {
-  border: none;
+	border: none;
 }
 
 
@@ -22,9 +22,9 @@ body {
 
 
 
-  .head {
+.head {
 	font-family: 'Karma', serif;
-	
+
 }
 
 .head1 {
@@ -33,7 +33,7 @@ body {
 	font-size: 1.3rem;
 }
 
- .head {
+.head {
 	font-size: 3.6rem;
 	color: #217FF9;
 	margin-top: 10px;
@@ -52,7 +52,7 @@ body {
 	font-size: 13px;
 }
 
-.mail a{
+.mail a {
 
 	text-decoration: none;
 	color: #6F7070;
@@ -65,14 +65,13 @@ body {
 }
 
 
-
 /* FOR MOBILE SCREEN */
 
 @media only screen and (max-width: 700px) {
 
 	.head {
 
-      font-size: 2.5rem ;
+		font-size: 2.5rem;
 	}
 
 	.head1 {
@@ -83,7 +82,7 @@ body {
 	.mail {
 
 		font-size: 15px;
-		color: 
+		color: black;
 	}
 }
 
@@ -102,7 +101,7 @@ body {
 
 	.mail {
 		font-size: 13px;
-        margin-top: 0px;
+		margin-top: 0px;
 	}
 
 	.container-fluid img {
@@ -131,9 +130,9 @@ body {
 
 		.mail .icons {
 
-		font-size: 14px;
-		margin-left: 13px;
-	}
+			font-size: 14px;
+			margin-left: 13px;
+		}
 	}
 }
 
@@ -152,8 +151,8 @@ body {
 
 
 
-.navbar ul{
-     text-align: center;
+.navbar ul {
+	text-align: center;
 }
 
 
@@ -163,12 +162,12 @@ body {
 	font-family: 'Noto Sans', sans-serif;
 }
 
- .navbar .navbar-nav .nav-item .nav-link:hover{
-         
-          background-color: rgb(0,0,0,0.6);
-		   border-radius: 5px;
-		   display: block;
-		   transform: scale(1.1);
+.navbar .navbar-nav .nav-item .nav-link:hover {
+
+	background-color: rgb(0, 0, 0, 0.6);
+	border-radius: 5px;
+	display: block;
+	transform: scale(1.1);
 }
 
 .navbar .navbar-nav .nav-item .dropdown-menu {
@@ -182,9 +181,9 @@ body {
 
 
 .navbar .navbar-nav .nav-item .dropdown-menu a:hover {
-       
-   color: #ffffff;
-    background-color: #727170;
+
+	color: #ffffff;
+	background-color: #727170;
 
 }
 
@@ -199,50 +198,67 @@ body {
 
 .articles h2 {
 
+	text-align: center;
 	font-family: 'Jaldi', sans-serif;
 	font-weight: 600;
-	font-size: 35px;
+	font-size: 50px;
 	padding-top: 25px;
+	color: #dc3545;
 }
 
-.articles h3, p, ul li{
+.articles h3,
+p,
+ul li {
 
-	font-family: 'Jaldi',sans-serif;
+	font-family: 'Jaldi', sans-serif;
 }
 
-.articles .by_line{
+.articles .by_line {
 
 	color: #773DCA;
 }
 
+.articles .nav {
+	justify-content: space-around;
+	align-items: center;
+}
 
-@media only screen and (max-width: 345px){
+.articles .nav-tabs{
+	border:none;
+}
 
-	.articles h2{
+@media only screen and (max-width: 345px) {
+
+	.articles h2 {
 
 		font-size: 20px;
 	}
 
-	.articles img{
-       
-       width: 35px;
-       height: 35px;
+	.articles img {
+
+		width: 35px;
+		height: 35px;
 
 	}
 }
 
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 550px) {
 
-	.articles h2{
+	.articles h2 {
 
 		font-size: 25px;
 	}
 
-	.articles img{
-       
-       width: 35px;
-       height: 35px;
+	.articles img {
 
+		width: 35px;
+		height: 35px;
+
+	}
+
+	.articles .nav {
+		flex-direction: column;
+		gap: 0.5rem;
 	}
 }
 
@@ -250,13 +266,13 @@ body {
 /* Article Section Starts */
 /*------------------------*/
 
-.tab-content h3{
+.tab-content h3 {
 
-   font-weight: 600;
+	font-weight: 600;
 
 }
 
-@media only screen and (max-width: 345px){
+@media only screen and (max-width: 345px) {
 
 	.media .media-body h3 {
 
@@ -268,7 +284,7 @@ body {
 		font-size: 13px;
 	}
 
-	.media .media-body p{
+	.media .media-body p {
 
 		font-size: 15px;
 	}
@@ -322,36 +338,61 @@ body {
 }   */
 
 footer {
- 
-    overflow-x: hidden;
-    background-color:#4b717a;
-    font-family: sans-serif;
-    
-    }
-   
-    footer p > span {
-    color: #ff512f;
-    }
-   
-   
-   
-    footer .column i {
-    color: #dd2476;
-    }
-   
-    It is Adjacent sibling combinator
-   
-    footer .column i + i {
-    padding: 0 0.5em;
-    }
 
-   
-    footer .column i {
-    color: #dd2476;
-    }
-   
-    /* It is Adjacent sibling combinator */
-   
-    /* footer .column i + i {
+	overflow-x: hidden;
+	background-color: #4b717a;
+	font-family: sans-serif;
+
+}
+
+footer p>span {
+	color: #ff512f;
+}
+
+
+
+footer .column i {
+	color: #dd2476;
+}
+
+It is Adjacent sibling combinator footer .column i+i {
+	padding: 0 0.5em;
+}
+
+
+footer .column i {
+	color: #dd2476;
+}
+
+/* It is Adjacent sibling combinator */
+
+/* footer .column i + i {
     padding: 0 0.5em;
     } */
+
+	/* .container{
+		max-width: none;
+	} */
+
+	.container {
+		width: 100%;
+		padding-right: 0;
+		padding-left: 0;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+
+ @media (min-width: 768px) {
+
+	.container{
+		max-width: none;
+	}
+}
+
+@media (min-width: 576px) {
+
+	.container{
+		max-width: none;
+	}
+}
